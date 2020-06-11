@@ -1,5 +1,12 @@
 ## bioerga-clustering
-Clustering and representation techniques for proteins and protein trajectories using several distance metrics.
+Clustering and representation methods for proteins and protein trajectories in <b>Python</b> using several distance metrics.
+
+The methods are implemented using several libraries, such as
+- [PyEMMA](https://github.com/markovmodel/PyEMMA/) (for molecular dynamics (MD) data analysis, featurization and Markov State Models),
+- [rmsd](https://github.com/charnley/rmsd) (for root-mean-square deviation (RMSD) of two molecules using rotation),
+- [mdtraj](https://github.com/mdtraj/mdtraj) (to manipulate pdb files),
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn) (for machine learning methods in Python)
+
 <p align="center">
   <img height=220px src="./docs/images/gromos.png?raw=true">
 </p>
